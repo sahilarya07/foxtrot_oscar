@@ -1,0 +1,42 @@
+  
+  /* visited link */
+  /* mouse over link */
+a:link, a:visited {
+  color: white;
+  font-family:"SF Pro",sans-serif;
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+  text-decoration: none;
+}
+a:hover{
+    color:wheat;
+
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+.photo{
+  border-style: double;
+  border-radius: 10px;
+  border-color: none;!important
+}
+
+body {
+    background: linear-gradient(-45deg, #61055e, #042c3e, #5b35b4, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
